@@ -10,30 +10,24 @@
 </head>
 <body>
     <div class="hero">
-        <nav>
+        <nav id="home">
             <h2 class="logo">Portfo<span>lio</span></h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
             </ul>
-            <a href="#" class="btn">Contact</a>
+            <a href="mailto:aaron.a.regalado@gmail.com" class="btn">Contact</a>
         </nav>
     </div>
     <div class="content">
         <h4>Hello, my name is</h4>
         <h1>Aaron <span>Regalado</span></h1>
         <h3>I am a Web Developer.</h3>
-        <div class="newslatter">
-            <form>
-                <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                <input type="submit" name="submit" value="Lets Start">
-            </form>
-        </div>
     </div>
-    <section class="about">
+    <section class="about" id="about">
         <div class="main">
             <img src="https://media2.giphy.com/media/lq4OYg1yffhDdrnL39/giphy.gif?cid=ecf05e47vvnraoqe9yczxjmvah7pkwawa85f5vj0fse7oatt&rid=giphy.gif&ct=s">
             <div class="about-text">
@@ -43,11 +37,11 @@
                     Whether the website needs HTML, CSS, JavaScript, and/or ReactJS, I can create a website 
                     that is responsive in order to make your website accessible to all users, regardless of 
                     which device they may be on.</p>
-                <button type="button">Let's Talk</button>
+                <a class="button-two" href="mailto:aaron.a.regalado@gmail.com">Let's Talk</a>
             </div>
         </div>
     </section>
-    <div class="service">
+    <div class="service" id="projects">
         <div class="title">
             <h2>Projects</h2>
         </div>
@@ -107,5 +101,22 @@
             </div>
         </div>
     </div>
+    <div class="contact-me" id="contact-me">
+        <p>Let's Make a Beautiful Website.</p>
+        <a class="button-two" href="mailto:aaron.a.regalado@gmail.com">Hire Me</a>
+    </div>
+    <footer>
+        <p>Aaron Regalado</p>
+        <p>Social Media</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/aaron-regalado-5780a3224/">
+                <img src="https://media3.giphy.com/media/yDM1kJZthxFPoGDdmq/giphy.gif?cid=ecf05e476nf94l162aygs9rtd5x71p0ntn8hphnhdhb0secu&rid=giphy.gif&ct=ts" class="linkedin">
+            </a>
+            <a href="https://github.com/Oppxdan">
+                <img src="https://media3.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif?cid=ecf05e47i124i7f8jzlivaal7mftnlk3bzagdkquzpdu5pms&rid=giphy.gif&ct=s" class="github">
+            </a>
+        </div>
+    </footer>
+
 </body>
 </html>
